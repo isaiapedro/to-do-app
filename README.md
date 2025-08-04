@@ -4,7 +4,17 @@
 
 <br>
 
-With Docker installed, run the Docker image, as it is shown below.
+With Docker installed, build and run the app with the following command
+
+<br>
+
+```
+docker build -t angular-docker .
+```
+
+<br>
+
+then run the Docker image, as it is shown below.
 
 <br>
 
@@ -26,4 +36,4 @@ This repository was made to study how to create Docker images and run containers
 
 The project is a list of items, where new items can be added, removed and edited. Besides that, a simple filter was implemented that shows specific portions of the data based on state (marked, unmarked and all items).
 
-Besides the Docker implementation, this project helped me to understand basic Angular concepts, such as Components, Interface, interpolation, input and output decorators, @for and @if statements in template file, get, add and remove functions in typescript.
+This project helped me to understand basic Angular concepts, such as Components, Interface, interpolation, input and output decorators, @for and @if statements in template file, get, add and remove functions in typescript.
