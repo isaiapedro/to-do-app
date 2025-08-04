@@ -1,27 +1,29 @@
-# Todo
+# To Do List App using Angular and Docker
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.1.
+## How to Run
 
-## Development server
+<br>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+With Docker installed, run the Docker image, as it is shown below.
 
-## Code scaffolding
+<br>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+```
+docker run -p 4201:4200 angular-docker
+```
 
-## Build
+<br>
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+later, open the URL `http://localhost:4201/` in your browser.
 
-## Running unit tests
+<br>
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Brief Explanation
 
-## Running end-to-end tests
+<br>
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+This repository was made to study how to create Docker images and run containers using a simple Angular project.
 
-## Further help
+The project is a list of items, where new items can be added, removed and edited. Besides that, a simple filter was implemented that shows specific portions of the data based on state (marked, unmarked and all items).
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Besides the Docker implementation, this project helped me to understand basic Angular concepts, such as Components, Interface, interpolation, input and output decorators, @for and @if statements in template file, get, add and remove functions in typescript.
