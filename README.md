@@ -2,15 +2,23 @@
 
 ## How to Run
 
+<br>
+
 With Docker installed, run the Docker image, as it is shown below.
 
 ```
 docker run -p 4201:4200 angular-docker
 ```
 
-and then open the URL `http://localhost:4201/` in your browser.
+<br>
+
+later, open the URL `http://localhost:4201/` in your browser.
+
+<br>
 
 ## Brief Explanation
+
+<br>
 
 This repository was made to study how to create Docker images and run containers using a simple Angular project.
 
